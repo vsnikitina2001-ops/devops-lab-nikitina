@@ -1,23 +1,21 @@
-**DevOps Lab - Nikitina**
+# DevOps Lab - Nikitina
 
-Репозиторий для изучения DevOps практик в рамках лабораторных работ. Включает настройку рабочего окружения, работу с Git/GitHub, CI/CD и другие темы.
+## Описание проекта
 
-Контактные данные
+Репозиторий для изучения DevOps практик в рамках лабораторных работ.
+Включает настройку рабочего окружения, работу с Git/GitHub, CI/CD и другие темы.
 
-Студент: Никитина Валерия
+## Контактные данные
 
-GitHub: DecayDecay
+- **Студент:** Василев Антон
+- **GitHub:** [DecayDecay](https://github.com/DecayDecay)
 
-План изучения DevOps
+## План изучения DevOps
 
-Git и GitHub — создание репозиториев, ветвление, Pull Requests
-
-CI/CD — настройка пайплайнов, автоматизация сборки и тестирования
-
-Контейнеризация — Docker, Docker Compose
-
-Оркестрация — Kubernetes, Helm
-
-IaC — Terraform, Ansible
-Мониторинг — Prometheus, Grafana
-Cloud — AWS / GCP / Yandex Cloud
+1. **Git и GitHub** — создание репозиториев, ветвление, Pull Requests
+2. **CI/CD** — настройка пайплайнов, автоматизация сборки и тестирования
+3. **Контейнеризация** — Docker, Docker Compose
+4. **Оркестрация** — Kubernetes, Helm
+5. **IaC** — Terraform, Ansible
+6. **Мониторинг** — Prometheus, Grafana
+7. **Cloud** — AWS / GCP / Yandex Cloud
