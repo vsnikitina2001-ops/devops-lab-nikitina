@@ -7,3 +7,4 @@ Author: Nikitina Valeriya Sergeevna\
 Lab: Lab0\
 Date of create: 01.03.2026\
 Date of finished:\
+
