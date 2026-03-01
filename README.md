@@ -8,7 +8,7 @@
 ## Контактные данные
 
 - **Студент:** Никитина Валерия
-- **GitHub:** [DecayDecay](https://github.com/vsnikitina2001-ops)
+- **GitHub:** [Nikitina V](https://github.com/vsnikitina2001-ops)
 
 ## План изучения DevOps
 
