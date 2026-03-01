@@ -7,8 +7,8 @@
 
 ## Контактные данные
 
-- **Студент:** Василев Антон
-- **GitHub:** [DecayDecay](https://github.com/DecayDecay)
+- **Студент:** Никитина Валерия
+- **GitHub:** [DecayDecay](https://github.com/vsnikitina2001-ops)
 
 ## План изучения DevOps
 
