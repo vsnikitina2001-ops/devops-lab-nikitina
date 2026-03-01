@@ -1,1 +1,28 @@
+# Правила для операционной системы Windows
 
+# Эскизы (иконки превью) в папках
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Файлы конфигурации папок
+[Dd]esktop.ini
+
+# Файлы из "Корзины"
+$RECYCLE.BIN/
+
+# Ярлыки Windows
+*.lnk
+
+# Временные файлы и файлы дампов
+*.stackdump
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Файлы, создаваемые разными редакторами (бэкапы)
+*~
+*.bak
