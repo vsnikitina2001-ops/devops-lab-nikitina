@@ -8,3 +8,7 @@ Lab: Lab0\
 Date of create: 01.03.2026\
 Date of finished:\
 
+
+1) Создала аккаунт на GitHub, репозиторий и дала название devops-lab-nikitina
+2) Создала клон на ПК (но через приложение GitHub Desktop)
+3) 
