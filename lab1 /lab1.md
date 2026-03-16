@@ -6,7 +6,7 @@ Group: U4125
 Author: Nikitina Valeriya Sergeevna
 Lab: Lab0
 Date of create: 11.03.2026
-Date of finished:\
+Date of finished: 16.03.2026
 
 
 1) Установила Docker Desktop Mac. Проверила установку командой docker --version. Запустила тестовый контейнер: docker run hello-world. И
