@@ -11,7 +11,7 @@ Date of finished:\
 
 1) Установила Docker Desktop Mac. Проверила установку командой docker --version. Запустила тестовый контейнер: docker run hello-world. И
 зучила базовые команды: docker images, docker ps, docker ps -a.
-![1.1.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/lаb1/images1/1.1.png)
+![1.1.png](1.1.png)
 
 2) Скачала образ Ubuntu: docker pull ubuntu:latest. Запустила интерактивный контейнер: docker run -it ubuntu bash. 
 Внутри контейнера установила пакет: apt update && apt install -y curl. Проверила установку: curl --version. Выйшла из контейнера: exit.
