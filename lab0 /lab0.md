@@ -11,7 +11,7 @@ Date of finished:\
 
 1) Создала аккаунт на GitHub, репозиторий и дала название devops-lab-nikitina
 2) Создала клон на ПК (но через приложение GitHub Desktop)
-[Иллюстрация к проекту](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/lab0%20/%200.1.jpg?raw=true)
+[Иллюстрация к проекту](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/lab0%20/%200.1.jpg)
 4) Создала файл README.md, кратко описала дисциплину, добавила контактную информацию и план изучения DevOps
 5) Добавила файл .gitignore добавила стандартные исключения для MacOS
 6) Создала ветку develop, в ней файл CONTRIBUTING.md и в нем прописала правила
