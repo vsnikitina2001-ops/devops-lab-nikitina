@@ -13,7 +13,9 @@ Date of finished:\
 2) Создала клон на ПК (но через приложение GitHub Desktop)
 ![Image alt](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/lab0%20/%20images0/0.1.jpg)
 4) Создала файл README.md, кратко описала дисциплину, добавила контактную информацию и план изучения DevOps
-5) Добавила файл .gitignore добавила стандартные исключения для MacOS
-6) Создала ветку develop, в ней файл CONTRIBUTING.md и в нем прописала правила
-7) Сделала коммит и отправила изменения на удаленный репозиторий
-8) Создала pull request, смержила и удалила ветку develop.
+![Image alt](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/lab0%20/%20images0/0.2.jpg)
+6) Добавила файл .gitignore добавила стандартные исключения для MacOS
+7) Создала ветку develop, в ней файл CONTRIBUTING.md и в нем прописала правила
+8) Сделала коммит и отправила изменения на удаленный репозиторий
+9) Создала pull request, смержила и удалила ветку develop.
+![Image alt](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/lab0%20/%20images0/0.3.jpg)
