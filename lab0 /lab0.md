@@ -6,7 +6,7 @@ Group: U4125\
 Author: Nikitina Valeriya Sergeevna\
 Lab: Lab0\
 Date of create: 01.03.2026\
-Date of finished:\
+Date of finished:02.03.2026
 
 
 1) Создала аккаунт на GitHub, репозиторий и дала название devops-lab-nikitina
