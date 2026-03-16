@@ -28,5 +28,13 @@ DOCKER_PASSWORD - пароль на Docker Hub
 4) Сделала коммит и пуш. Проверила выполнение пайплайна в разделе Actions.
 Образ появился в Docker Hub. Проверила логи выполнения каждого шага.
 
-![1.1.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/lab1%20/images1/1.1.png)
+![settings actions.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b2/images2/settings%20actions.png?raw=true)
+
+![Update app.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b2/images2/Update%20app.png?raw=true)
+
+![actions.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b2/images2/actions.png?raw=true)
+
+![hub.docker.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b2/images2/hub.docker.png?raw=true)
+
+![localhost.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b2/images2/localhost.png?raw=true)
 
