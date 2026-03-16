@@ -1,35 +1,31 @@
-University: ITMO University
-Faculty: FTMI
-Course: Введение в веб технологии
-Year: 2025/2026
-Group: U4125
-Author: Nikitina Valeriya Sergeevna
-Lab: Lab0
-Date of create: 11.03.2026
-Date of finished: 16.03.2026
+University: [ITMO University](https://itmo.ru/ru/)\
+Faculty: [FTMI](https://ftmi.itmo.ru/)\
+Course: [Введение в веб технологии](https://itmo-ict-faculty.github.io/introduction-in-web-tech/)\
+Year: 2025/2026\
+Group: U4125\
+Author: Nikitina Valeriya Sergeevna\
+Lab: Lab1\
+Date of create: 16.03.2026\
+Date of finished: 16.03.2026\
 
 
-1) Установила Docker Desktop Mac. Проверила установку командой docker --version. Запустила тестовый контейнер: docker run hello-world. И
+1)Установила Docker Desktop Mac. Проверила установку командой docker --version. Запустила тестовый контейнер: docker run hello-world. И
 зучила базовые команды: docker images, docker ps, docker ps -a.
 ![1.1.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/lab1%20/images1/1.1.png)
-
-2) Скачала образ Ubuntu: docker pull ubuntu:latest. Запустила интерактивный контейнер: docker run -it ubuntu bash.
+2)Скачала образ Ubuntu: docker pull ubuntu:latest. Запустила интерактивный контейнер: docker run -it ubuntu bash.
 Внутри контейнера установила пакет: apt update && apt install -y curl. Проверила установку: curl --version. Выйшла из контейнера: exit.
 ![1.2.1.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/lab1%20/images1/1.2.1.png)
 ![1.2.2.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/lab1%20/images1/1.2.2.png)
 ![1.2.3.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/lab1%20/images1/1.2.3.png)
-
-4) Запустила контейнер с nginx: docker run -d -p 8080:80 --name web-server nginx:alpine. Проверила работу в браузере: http://localhost:8080. 
+3)Запустила контейнер с nginx: docker run -d -p 8080:80 --name web-server nginx:alpine. Проверила работу в браузере: http://localhost:8080. 
 Посмотрела логи контейнера: docker logs web-server. Подключилась к контейнеру: docker exec -it web-server sh.
 ![1.3.1.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/lab1%20/images1/1.3.1.png)
 ![1.3.2.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/lab1%20/images1/1.3.2.png)
-
-6) Посмотрела запущенные контейнеры: docker ps. Посмотрела все контейнеры: docker ps -a.
+4)Посмотрела запущенные контейнеры: docker ps. Посмотрела все контейнеры: docker ps -a.
 Остановила контейнер: docker stop web-server. Запустила остановленный контейнер: docker start web-server.
 Удалила контейнер: docker rm web-server. Удалила образ: docker rmi nginx:alpine.
 ![1.4.1.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/lab1%20/images1/1.4.1.png)
-
-7) Создала том: docker volume create my-volume. Запустила контейнер с томом: docker run -it --name volume-test -d -v my-volume:/data ubuntu bash. 
+5)Создала том: docker volume create my-volume. Запустила контейнер с томом: docker run -it --name volume-test -d -v my-volume:/data ubuntu bash. 
 Подключилась к контейнеру: docker exec -it volume-test bash. Создала файл в томе: echo "Hello from volume" > /data/test.txt. 
 Удалила контейнер и создала новый с тем же томом. В конце, проверила, что файл сохранился.
 ![1.5.1.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/lab1%20/images1/1.5.1.png)
