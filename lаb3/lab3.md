@@ -7,3 +7,24 @@ Author: Nikitina Valeriya Sergeevna\
 Lab: Lab3\
 Date of create: 16.03.2026\
 Date of finished: 16.03.2026
+
+
+1) Создала папку prometheus для конфигурации.
+Создала файл prometheus/prometheus.yml. Запустила Node Exporter:.
+
+2) Запустила контейнер Node Exporter для сбора системных метрик.
+Проверила работу: curl http://localhost:9100/metrics
+
+3) Создала том для данных Prometheus:
+Вышла на папку выше в консоли, убедилась что вы находитесь над уровнем папки prometheus. Запустила контейнер Prometheus.
+
+4) Проверила работу: открыть http://localhost:9090 в браузере.
+
+5) Создала том для данных Grafana.
+Проверила работу: открыть http://localhost:3000 в браузере.
+
+6) Настроила Grafana.
+
+7) Проверила все контейнеры.
+Открыла Prometheus и убедилась, что метрики собираются.
+Создала несколько графиков для разных метрик (CPU, память, диск).
