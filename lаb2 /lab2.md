@@ -9,7 +9,7 @@ Date of create: 16.03.2026\
 Date of finished: 16.03.2026
 
 
-1) Скопировала файлы из первой лабораторной (app.py, requirements.txt, Dockerfile) в новый репозиторий ().
+1) Скопировала файлы из первой лабораторной (app.py, requirements.txt, Dockerfile) в новый репозиторий (devops-lab2-nikitina).
 Создала аккаунт на Docker Hub. Создала новый репозиторий на Docker Hub для образа.
 
 
