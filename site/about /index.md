@@ -1,6 +1,6 @@
 # О себе
 
-![Моё фото](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/site/images/IMG_9377.jpg)
+![Моё фото](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/site/images/photo.jpg)
 
 ## Образование
 - Магистр — Университет ИТМО, управление высокотехнологичным бизнесом
