@@ -10,8 +10,8 @@ Date of finished: 16.03.2026
 
 
 1) Создала папку prometheus для конфигурации.
-Создала файл prometheus/prometheus.yml. Запустила Node Exporter:.
-
+Создала файл prometheus/prometheus.yml. Запустила Node Exporter.
+![3.1.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b3/images3/3.1.png)
 2) Запустила контейнер Node Exporter для сбора системных метрик.
 Проверила работу: curl http://localhost:9100/metrics
 
