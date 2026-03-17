@@ -1,44 +1,53 @@
-# Основная информация о сайте
 site_name: Сайт Валерии Борисовой
 site_description: Персональный сайт-портфолио
-site_author: Валерия Борисова (Никитина)
+site_author: Валерия Борисова
 
 theme:
   name: material
+  language: ru
+
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
     - search.highlight
     - search.share
+
   palette:
     - scheme: default
       primary: indigo
       accent: pink
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: Светлая тема
+
     - scheme: slate
       primary: grey
       accent: blue-grey
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
-  logo: images/logo.svg
-  favicon: images/logo.svg
+        name: Тёмная тема
+
+  logo: images/logo.png
+  favicon: images/logo.png
 
 nav:
   - Главная: index.md
   - О себе: about.md
   - Проекты: projects.md
-  - Контакты: contacts.md
   - Достижения: achievements.md
+  - Контакты: contacts.md
 
 extra:
   social:
-    - icon: simple/github  # используем простые иконки
+    - icon: simple/github
       link: https://github.com/vsnikitina2001-ops
       name: GitHub
 
-copyright: |
-  Copyright &copy; 2026 Валерия Борисова (Никитина)
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+
+copyright: © 2026 Валерия Борисова
