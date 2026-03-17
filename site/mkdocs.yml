@@ -32,7 +32,6 @@ theme:
 favicon: images/logo.png
 
 nav:
- nav:
   - Главная: index.md
   - О себе: about/index.md
   - Проекты: projects/index.md
