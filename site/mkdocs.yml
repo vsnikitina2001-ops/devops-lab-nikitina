@@ -32,11 +32,12 @@ theme:
 favicon: images/logo.png
 
 nav:
+ nav:
   - Главная: index.md
-  - О себе: about.md
-  - Проекты: projects.md
-  - Достижения: achievements.md
-  - Контакты: contacts.md
+  - О себе: about/index.md
+  - Проекты: projects/index.md
+  - Контакты: contacts/index.md
+  - Достижения: achievements/index.md
 
 extra:
   social:
