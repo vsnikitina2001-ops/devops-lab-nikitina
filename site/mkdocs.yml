@@ -28,7 +28,7 @@ theme:
         icon: material/brightness-4
         name: Тёмная тема
 
-  logo: images/logo.png
+logo: images/logo.png
 favicon: images/logo.png
 
 nav:
