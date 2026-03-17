@@ -29,7 +29,7 @@ theme:
         name: Тёмная тема
 
   logo: images/logo.png
-  favicon: images/logo.png
+favicon: images/logo.png
 
 nav:
   - Главная: index.md
