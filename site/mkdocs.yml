@@ -28,8 +28,8 @@ theme:
         icon: material/brightness-4
         name: Тёмная тема
 
-logo: images/logo.png
-favicon: images/logo.png
+  logo: images/logo.png
+  favicon: images/logo.png
 
 nav:
   - Главная: index.md
@@ -50,4 +50,4 @@ markdown_extensions:
   - toc:
       permalink: true
 
-copyright: © 2026 Валерия Борисова
+copyright: © 2026 Валерия Борисов
