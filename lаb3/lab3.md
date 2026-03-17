@@ -14,15 +14,21 @@ Date of finished: 16.03.2026
 ![3.1.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b3/images3/3.1.png)
 2) Запустила контейнер Node Exporter для сбора системных метрик.
 Проверила работу: curl http://localhost:9100/metrics
-
+![3.2 Запуск Prometheus.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b3/images3/3.2%20%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA%20Prometheus.png)
 3) Создала том для данных Prometheus:
 Вышла на папку выше в консоли, убедилась что вы находитесь над уровнем папки prometheus. Запустила контейнер Prometheus.
-
+![3.3.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b3/images3/3.3.png)
+![3.3.2.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b3/images3/3.3.2.png)
 4) Проверила работу: открыть http://localhost:9090 в браузере.
-
+![3.4.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b3/images3/3.4.png)
+![3.4.2.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b3/images3/3.4.2.png)
 5) Создала том для данных Grafana.
 Проверила работу: открыть http://localhost:3000 в браузере.
-
+![3.5.1.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b3/images3/3.5.1.png)
+![3.5.2.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b3/images3/3.5.2.png)
+![3.5.3.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b3/images3/3.5.3.png)
 6) Проверила все контейнеры.
 Открыла Prometheus и убедилась, что метрики собираются.
 Создала несколько графиков для разных метрик (CPU, память, диск).
+![3.6.1.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b3/images3/3.6.1.png)
+![3.6.2.png](https://github.com/vsnikitina2001-ops/devops-lab-nikitina/blob/main/l%D0%B0b3/images3/3.6.2.png)
