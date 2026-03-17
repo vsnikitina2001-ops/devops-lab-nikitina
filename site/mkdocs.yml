@@ -17,16 +17,10 @@ theme:
     - scheme: default
       primary: indigo
       accent: pink
-      toggle:
-        icon: material/brightness-7
-        name: Светлая тема
 
     - scheme: slate
       primary: grey
       accent: blue-grey
-      toggle:
-        icon: material/brightness-4
-        name: Тёмная тема
 
   logo: images/logo.png
   favicon: images/logo.png
